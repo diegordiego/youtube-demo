@@ -1,0 +1,20 @@
+{
+  "name": "youtube-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url .",
+    "build:archive": "ch5-cli archive -p example -d dist -o tsw",
+    "deploy": "ch5-cli deploy -H 192.168.1.102 -p -t touchscreen tsw/example.ch5z"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@crestron/ch5-crcomlib": "^2.8.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
