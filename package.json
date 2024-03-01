@@ -6,8 +6,8 @@
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --public-url .",
-    "build:archive": "ch5-cli archive -p example -d dist -o tsw",
-    "deploy": "ch5-cli deploy -H 192.168.1.102 -p -t touchscreen tsw/example.ch5z"
+    "build:archive": "ch5-cli archive -p tutorial -d dist -o tsw",
+    "deploy": "ch5-cli deploy -H 192.168.1.110 -t touchscreen tsw/tutorial.ch5z -s"
   },
   "author": "",
   "license": "ISC",
